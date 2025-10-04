@@ -1,0 +1,32 @@
+LOGIN user1
+UPLOAD file1.txt
+DOWNLOAD file2.txt
+LOGIN user2
+ERROR Connection timeout
+LOGOUT user1
+UPLOAD file3.txt
+LOGIN user3
+FAILED Password attempt
+LOGOUT user2
+
+DOWNLOAD file4.txt
+LOGIN user1
+UPLOAD file5.txt
+ERROR Disk full
+LOGOUT user3
+
+UPLOAD file6.txt
+UPLOAD file6.txt
+RANDOM gibberish line
+TIMEOUT Session expired
+LOGIN user4
+LOGOUT user4
+ERROR Connection timeout
+
+UPLOAD file7.txt
+LOGOUT user1
+LOGIN user2
+FAILED Password attempt
+UPLOAD file8.txt
+DOWNLOAD file9.txt
+LOGOUT user2

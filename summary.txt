@@ -1,0 +1,21 @@
+============================================================
+Log Events Summary
+============================================================
+
+Total entries parsed: 29
+Unique events: 8
+Skipped/blank lines: 3
+
+------------------------------------------------------------
+Event Frequencies (sorted by count):
+------------------------------------------------------------
+UPLOAD                   7 times (24.1%)
+LOGIN                    6 times (20.7%)
+LOGOUT                   6 times (20.7%)
+DOWNLOAD                 3 times (10.3%)
+ERROR                    3 times (10.3%)
+FAILED                   2 times ( 6.9%)
+RANDOM                   1 times ( 3.4%)
+TIMEOUT                  1 times ( 3.4%)
+
+============================================================
